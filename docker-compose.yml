@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  agrow-app:
+    build: .
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    networks:
+      - agrow-network
+
+networks:
+  agrow-network:
+    driver: bridge

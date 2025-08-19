@@ -1,0 +1,47 @@
+.DS_Store
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# API Keys (security)
+*.key
+*.pem
+config/secrets.json
+
+# Build outputs
+build/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Vercel
+.vercel
+
+# OS generated files
+Thumbs.db
+.DS_Store
